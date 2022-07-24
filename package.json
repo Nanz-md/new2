@@ -25,14 +25,14 @@
     "MD",
     "baileys-md"
   ],
-  "homepage": "https://github.com/arivpns",
-  "author": "Gempy Ton",
+  "homepage": "-",
+  "author": "Nanz",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Arivpns"
+    "url": "-"
   },
   "bugs": {
-    "url": "https://github.com/arivpns"
+    "url": "-"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
