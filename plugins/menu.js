@@ -49,7 +49,7 @@ const defaultMenu = {
 ╠❥🤺𝙴𝚡𝚙   : %exp
 ╠════════════════╝
 %readmore`.trimStart(),
-  header: '╠♨ %category ♨',
+  header: '╠🚀 %category 🚀',
   body: '╠✠ %cmd %islimit %isPremium',
   footer: '╠════════════════╝\n╠════════════════╗',
   after: `${global.namabot}
