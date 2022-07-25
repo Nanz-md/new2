@@ -38,6 +38,13 @@ module.exports = {
                         if (!('name' in user)) user.name = m.name
                         if (!isNumber(user.age)) user.age = -1
                         if (!isNumber(user.regTime)) user.regTime = -1
+                        if (!('autorestart' in settings)) 
+                        settings.autorestart = true
+                        if (!('restartDB' in settings)) 
+                        settings.restartDB = 0
+                        } else global.db.data.settings[this.user.jid] = {
+                        autorestart: true,
+                        restartDB: 0
                     }
                     if (!isNumber(user.afk)) user.afk = -1
                     if (!('afkReason' in user)) user.afkReason = ''
