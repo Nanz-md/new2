@@ -273,14 +273,7 @@ module.exports = {
                     if (!isNumber(user.lastnebang)) user.lastnebang = 0
                     if (!isNumber(user.lastberkebon))user.lastberkebon = 0
                     if (!isNumber(user.lastadventure)) user.lastadventure = 0
-                    if (!('autorestart' in settings)) 
-settings.autorestart = true
-                    if (!('restartDB' in settings))
-settings.restartDB = 0
-                } else global.db.data.
-settings[this.user.jid] = {
-                    autorestart: true,
-                    restartDB: 0
+                    
                 } else global.db.data.users[m.sender] = {
                     exp: 0,
                     limit: 1000,
