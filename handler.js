@@ -38,9 +38,7 @@ module.exports = {
                     if (!('autorestart' in settings)) settings.autorestart = true
                         if (!('name' in user)) user.name = m.name
                         if (!isNumber(user.age)) user.age = -1
-                        if (!isNumber(user.regTime)) user.regTime = -1
-                        s.user.jid] = {
-                        
+                        if (!isNumber(user.regTime)) user.regTime = -1     
                     }
                     if (!isNumber(user.afk)) user.afk = -1
                     if (!('afkReason' in user)) user.afkReason = ''
